@@ -1,3 +1,4 @@
+--revenue by payment type
 SELECT 
     op.payment_type,
     SUM(oi.price) AS revenue
